@@ -1,6 +1,6 @@
 {
   "name": "HackIT New Website Template",
-  "version": "1.0.0",
+  "version": "0.5",
   "private": true,
   "dependencies": {
     "bootstrap-sass-official": "~3.1.1",
