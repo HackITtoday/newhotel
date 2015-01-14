@@ -1,1 +1,9 @@
 # Created by .gitignore support plugin (hsz.mobi)
+
+.idea
+
+.editorconfig
+
+.gitignore
+
+.jshintrc
