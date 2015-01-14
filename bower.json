@@ -1,10 +1,13 @@
 {
-  "name": "hotel-crillon",
+  "name": "HackIT New Website Template",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "bootstrap-sass-official": "~3.1.1",
     "modernizr": "~2.6.2",
-    "jquery": "~1.11.0"
+    "jquery": "~1.11.0",
+    "angular": "~1.3.8",
+    "angular-route": "~1.3.8"
   },
   "devDependencies": {}
 }
