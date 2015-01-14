@@ -1,6 +1,5 @@
 # Created by .gitignore support plugin (hsz.mobi)
 
-.idea
 
 .editorconfig
 
@@ -12,4 +11,5 @@ node_modules
 
 app/bower_components
 
-workspace.xml
+.idea/workspace.xml
+
