@@ -1,4 +1,4 @@
-crillon
+New Hotel Listing
 ========
 
-Landing page for Crillon Hotel
+Create New Hotels in a quick and easy way
