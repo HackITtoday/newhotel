@@ -9,7 +9,7 @@
     <meta name="viewport" content="{{ metades  }}">
     <meta name="author" content="HackIT">
 
-    <title>{{ metatitle  }}</title>
+    <title>Essential Hotels UK Hotel Reservation Company</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -55,6 +55,27 @@
 
     <!--Navigation Block-->
     <nav-block></nav-block>
+    
+    <paper-rfp></paper-rfp>
+    
+   <polymer-element name="paper-rfp">
+  <template>
+    <paper-button on-click="{{loadFrom}}" raised role="button" tabindex="0"> 
+      Booking inquiry
+      <paper-action-dialog id="loadFrom" backdrop >
+        <polymer-firebase-form></polymer-firebase-form>
+      </paper-action-dialog>
+    </paper-button>
+  </template>
+  <script>
+Polymer("paper-rfp", {
+  loadFrom: function(e) {
+    this.$.loadFrom.toggle();
+  },
+  ready: function() {
+  }
+});
+  </script>
 
     <!--Heading Block-->
     <heading-block></heading-block>
@@ -110,6 +131,10 @@
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script type="text/javascript" src="app.js"></script>
+    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+    <link rel="import" href="bower_components/polymer/polymer.html" />
+    <link rel="import" href="polymer-firebase-form.html" />
+    <link rel="import" href="bower_components/paper-button/paper-button.html" />
 
     <!-- HackIT Theme Scripts -->
     <script src="assets/js/vitality.js"></script>
