@@ -1267,3 +1267,8 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 .about-carousel h3 {
     color: #fff;
 }
+
+/*Booking Popup*/
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.29);
+}

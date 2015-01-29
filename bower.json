@@ -11,5 +11,18 @@
   },
   "devDependencies": {
     "html5shiv": "~3.7.2"
-  }
+  },
+  "homepage": "https://essentialhotels.co.uk",
+  "authors": [
+    "Wo <mywoisme@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
 }
