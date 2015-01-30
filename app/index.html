@@ -10,11 +10,7 @@
     <meta name="author" content="HackIT">
 
     <title>Essential Hotels UK Hotel Reservation Company</title>
-    
-    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
-    <link rel="import" href="bower_components/polymer/polymer.html" />
-    <link rel="import" href="polymer-firebase-form.html" />
-    <link rel="import" href="bower_components/paper-button/paper-button.html" />
+
 
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -60,27 +56,6 @@
 
     <!--Navigation Block-->
     <nav-block></nav-block>
-    
-    <paper-rfp></paper-rfp>
-    
-   <polymer-element name="paper-rfp">
-  <template>
-    <paper-button on-click="{{loadFrom}}" raised role="button" tabindex="0"> 
-      Booking inquiry
-      <paper-action-dialog id="loadFrom" backdrop >
-        <polymer-firebase-form></polymer-firebase-form>
-      </paper-action-dialog>
-    </paper-button>
-  </template>
-  <script>
-Polymer("paper-rfp", {
-  loadFrom: function(e) {
-    this.$.loadFrom.toggle();
-  },
-  ready: function() {
-  }
-});
-  </script>
 
     <!--Heading Block-->
     <heading-block></heading-block>
@@ -132,8 +107,8 @@ Polymer("paper-rfp", {
     <script src="assets/js/plugins/wow/wow.min.js"></script>
     <script src="assets/js/contact_me.js"></script>
     <script src="assets/js/plugins/jqBootstrapValidation.js"></script>
-    <!--<script src="bower_components/angular/angular.js"></script>-->
-    <!--<script src="bower_components/angular-route/angular-route.js"></script>-->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
     <script type="text/javascript" src="app.js"></script>
     
 
