@@ -1272,3 +1272,8 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 .modal-backdrop {
     background-color: rgba(0, 0, 0, 0.29);
 }
+
+/*Primary Button*/
+.btn-primary {
+    background-color: #FFF;
+}
