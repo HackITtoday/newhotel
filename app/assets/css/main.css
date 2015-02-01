@@ -1276,4 +1276,5 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 /*Primary Button*/
 .btn-primary {
     background-color: #FFF;
+    border-color: #FFF;
 }
